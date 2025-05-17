@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const ColumnWrapper = styled.div`
-    background-color: #C0C0C0;
+    background-color: #DCDCDC;
     border-radius: 8px;
     padding: 10px;
     width: 300px;

@@ -59,14 +59,29 @@ export const SearchBar = styled.textarea`
 `;
 
 export const DataRange = styled.button`
-    background-color: #ccc;
+    background-color: #DCDCDC;
     border: 1px solid #ccc;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 
 `;
 
 export const ScoreRange = styled.button`
+    background-color: #DCDCDC;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 `;
 
 export const FilterButton = styled.button`
+    background-color: #DCDCDC;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 `;
