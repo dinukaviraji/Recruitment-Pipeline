@@ -3,11 +3,13 @@ import styled from "styled-components";
 export const NavbarContainer = styled.nav`
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #454545;
     color: white;
     font-family: 'Poppins', sans-serif;
     position: sticky;
     top: 0;
+    padding: 0 10px;
   `;
 
 export const Logo = styled.p`
@@ -15,6 +17,11 @@ export const Logo = styled.p`
     align-items: center;
     justify-content: left;
 `;
+export const Left = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ `;
 
 export const NavbarList = styled.ul`
     display: flex;
@@ -37,6 +44,22 @@ export const NavbarItem = styled.li`
         border-radius: 5px;
     }
 `;
+
+export const Right = styled.div`
+    display: flex;
+    align-items: center; 
+    img {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        // transition: all 0.3s ease-in-out;
+
+        // &:hover {
+        //     background-color: #333;
+        //     border-radius: 5px;
+        // }
+    }`;
+
 export const Hamburger = styled.div`
     display: none;
     flex-direction: column;
