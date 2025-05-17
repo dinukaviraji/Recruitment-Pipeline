@@ -1,4 +1,4 @@
-import {CardWrapper, Assesment} from "./card.styles";
+import {CardWrapper, Assesment, Bottom} from "./card.styles";
 import { useDraggable } from "@dnd-kit/core";
 import star from "../../assets/star.png";
 
@@ -15,8 +15,11 @@ const Card = ({candidate }) => {
         <CardWrapper ref={setNodeRef} {...listeners} {...attributes}>
             <p> {candidate.name}</p>
             <p> Applied at {candidate.appliedDate}</p>
+            <hr/>
+            <Bottom>
             <Assesment> <img src={star} alt="star" width={15}/> {candidate.score} Overall </Assesment>
             {candidate.referred && <p style={{color: 'blue'}}> Referred</p> }
+            </Bottom>
         </CardWrapper>
     );
 };
