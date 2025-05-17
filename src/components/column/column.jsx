@@ -1,16 +1,17 @@
 import Card from "../card/card";
 import { useDroppable } from "@dnd-kit/core";
+import { ColumnWrapper, Title } from "./column.styles";
 
 const Column = ({ id, title, candidates }) => {
       const { setNodeRef } = useDroppable({ id });
 
         return (
-            <div ref={setNodeRef} style={{ width: '300px', padding: '10px', border: '1px solid black' }}>
-            <h2>{title}</h2>
+            <ColumnWrapper ref={setNodeRef} >
+            <Title title={title}> {title}</Title>
             {candidates.map((candidate) => (
                 <Card key={candidate.id} candidate={candidate} />
             ))}
-            </div>
+            </ColumnWrapper>
         );
 
 };

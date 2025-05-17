@@ -10,3 +10,14 @@ export const CardWrapper = styled.div`
     cursor: grab;
 
 `;
+
+export const Assesment = styled.button`
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    gap: 3px;
+    padding: 2px 7px;
+`;

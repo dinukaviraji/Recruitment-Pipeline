@@ -29,6 +29,7 @@ const Board = () => {
             return newCols;
         });
         }
+        console.log(columns)
     };
 
     return (
@@ -38,10 +39,12 @@ const Board = () => {
                 <Column 
                 key={stage} 
                 id={stage} 
-                title={stage.toUpperCase()} 
+                title={stage} 
                 candidates={candidates} />
                 ))}
+                
             </BoardWrapper>
+        
         </DndContext>
     );
 };

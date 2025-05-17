@@ -1,5 +1,5 @@
 export const candidates = {
-  applying: [
+  Applying: [
     {
       id: '1',
       name: 'Marlon Reynolds',
@@ -14,7 +14,7 @@ export const candidates = {
       score: 2,
     },
   ],
-  screening: [
+  Screening: [
     {
       id: '3',
       name: 'Kristi Sipes',
@@ -22,6 +22,6 @@ export const candidates = {
       score: 3.5,
     },
   ],
-  interview: [],
-  test: [],
+  Interview: [],
+  Test: [],
 };
