@@ -1,22 +1,14 @@
-import { useState } from 'react';
 import Board from '../board/board';
 import lessthan from '../../assets/less-than.png';
 import morethan from '../../assets/more-than.png';
 import share from '../../assets/share.svg';
-import data from '../../assets/data.png';
-import score from '../../assets/score.png';
-import filter from '../../assets/filter.png';
-import dropdown from '../../assets/drop-down.png';
+import DropDowns from '../dropDowns/dropDowns';
 
-import {Lessthan, Morethan, Topic, MiddleWrapper, ShareButton, Left, FilterSection, 
-    SearchBar,DataRange, ScoreRange, FilterButton, DataRangeList, DataRangeDropDown, DataRangeListItem} from './middle.styles';
+import {Lessthan, Morethan, Topic, MiddleWrapper, ShareButton, Left, FilterSection, SearchBar} from './middle.styles';
 
 
 const middle = () => {
-    const [isOpen, setIsOpen] = useState(false);
 
-    const toggleDropdown = () => {
-        setIsOpen(!isOpen);};
     return (
         <MiddleWrapper>
             <Topic>     
@@ -31,23 +23,7 @@ const middle = () => {
             <hr/>
             <FilterSection>
                 <SearchBar placeholder='Search'> </SearchBar>
-
-                <DataRangeDropDown>
-                <DataRange> <img src={data} width={20}/>  
-                Date Range  <img src={dropdown} width={20} onClick={toggleDropdown}/> </DataRange>
-                {isOpen && (
-                <DataRangeList>
-                    <DataRangeListItem>  Range 1 </DataRangeListItem>
-                    <DataRangeListItem>  Range 2  </DataRangeListItem>
-                    <DataRangeListItem>  Range 3  </DataRangeListItem>
-                    <DataRangeListItem>  Range 4  </DataRangeListItem>
-                </DataRangeList>
-                )}
-                </DataRangeDropDown>
-
-                <ScoreRange> <img src={score} width={20}/> Score Range <img src={dropdown} width={20}/> </ScoreRange>
-                <FilterButton> <img src={filter} width={20}/> Advance Filter <img src={dropdown} width={20}/> </FilterButton>
-                
+                <DropDowns />                              
             </FilterSection>
 
 
