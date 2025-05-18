@@ -114,7 +114,6 @@ export const DataRangeList = styled.ul`
   margin: 0;
   width: 150px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-//   z-index: 10;
 `;
 
 export const DataRangeListItem = styled.li`
@@ -147,4 +146,8 @@ export const ScoreRangeListItem = styled.li`
         background-color: #f0f0f0;
     }
     font-size: 14px;
+`;
+
+export const Full = styled.div`
+    display: flex;
 `;

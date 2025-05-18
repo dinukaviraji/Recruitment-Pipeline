@@ -3,14 +3,18 @@ import lessthan from '../../assets/less-than.png';
 import morethan from '../../assets/more-than.png';
 import share from '../../assets/share.svg';
 import DropDowns from '../dropDowns/dropDowns';
+import LeftSidebar from '../leftSidebar/leftSidebar';
 
-import {Lessthan, Morethan, Topic, MiddleWrapper, ShareButton, Left, FilterSection, SearchBar} from './middle.styles';
+import {Lessthan, Morethan, Topic, MiddleWrapper, ShareButton, Left, FilterSection, SearchBar, Full} from './middle.styles';
 
 
 const middle = () => {
 
     return (
+        <Full>
+        <LeftSidebar />
         <MiddleWrapper>
+            <div>
             <Topic>     
                 <Left>
                 <h2> Research and Development Officer </h2>
@@ -25,10 +29,10 @@ const middle = () => {
                 <SearchBar placeholder='Search'> </SearchBar>
                 <DropDowns />                              
             </FilterSection>
-
-
             <Board />
+            </div>
         </MiddleWrapper>
+        </Full>
     );
 };
 
