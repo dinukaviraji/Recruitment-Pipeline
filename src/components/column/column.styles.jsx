@@ -22,3 +22,16 @@ export const Title = styled.label`
     border-radius: 15px;
     color: #fff;
 `;
+
+export const CandidateList = styled.div`
+    max-height: 500px;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+    width: 8px;
+  }
+    &::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 4px;
+  }
+`;

@@ -13,6 +13,19 @@ export const candidates = {
       appliedDate: '29 Oct, 2023',
       score: 2,
     },
+    {
+      id: '4',
+      name: 'Curtis Baumbach',
+      appliedDate: '29 Oct, 2023',
+      score: 2.5,
+      referred: true,
+    },
+    {
+      id: '5',
+      name: 'Regina George',
+      appliedDate: '9 Nov, 2023',
+      score: 2,
+    },
   ],
   Screening: [
     {
