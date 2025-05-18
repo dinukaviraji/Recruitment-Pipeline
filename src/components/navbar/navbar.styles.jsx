@@ -10,6 +10,8 @@ export const NavbarContainer = styled.nav`
     position: sticky;
     top: 0;
     padding: 0 10px;
+    z-index: 1000;
+
   `;
 
 export const Logo = styled.p`

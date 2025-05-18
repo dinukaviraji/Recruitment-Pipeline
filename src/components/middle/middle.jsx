@@ -27,7 +27,6 @@ const middle = () => {
             </FilterSection>
 
 
-
             <Board />
         </MiddleWrapper>
     );

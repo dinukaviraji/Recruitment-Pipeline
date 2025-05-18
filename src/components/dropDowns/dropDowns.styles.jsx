@@ -51,7 +51,7 @@ export const DataRangeList = styled.ul`
   margin: 0;
   width: 150px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-//   z-index: 10;
+  z-index: 10;
 `;
 
 export const DataRangeListItem = styled.li`
