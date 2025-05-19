@@ -1,12 +1,10 @@
 import styled from 'styled-components';
 
-
 export const ColumnWrapper = styled.div`
     background-color: #DCDCDC;
     border-radius: 8px;
     padding: 10px;
     flex: 0 0 250px;
-
 `;
 
 const bg = {
@@ -22,6 +20,7 @@ export const Title = styled.label`
     padding: 3px 10px;
     border-radius: 15px;
     color: #fff;
+    margin: 10px;
 `;
 
 export const CandidateList = styled.div`

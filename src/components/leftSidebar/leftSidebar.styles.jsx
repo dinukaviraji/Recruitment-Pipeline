@@ -6,6 +6,7 @@ export const LeftSidebarWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 70px;
+    width: 50px;
     align-items: center;
+    justify-content: space-between;
 `;

@@ -35,11 +35,11 @@ export const candidates = {
       name: 'Kristi Sipes',
       appliedDate: '20 Oct, 2023',
       score: 3.5,
-      
+      imageUrl: 'https://image.tmdb.org/t/p/w500/s6tflSD20MGz04ZR2R1lZvhmC4Y.jpg',
     },
     {
       id: '6',
-      name: 'Randy Dibbert ',
+      name: 'Randy Dibbert',
       appliedDate: '20 Oct, 2023',
       score: 3.5,
       imageUrl:'https://alchetron.com/cdn/scott-porter-dda5e2d3-f06e-4311-af40-b5bc876db73-resize-750.png',
