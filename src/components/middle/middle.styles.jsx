@@ -49,7 +49,8 @@ export const Left = styled.div`
 export const FilterSection = styled.div`
     display: flex;
     gap: 10px;
-    
+    align-items: center;
+    justify-content: space-between;
 `;
 
 export const SearchBar = styled.textarea`
@@ -150,4 +151,17 @@ export const ScoreRangeListItem = styled.li`
 
 export const Full = styled.div`
     display: flex;
+`;
+
+export const LayoutButton = styled.div`
+    background-color: #DCDCDC;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 110px;
+    height: 30px;
+    padding: 0 5px;
+    font-size: 14px;
 `;

@@ -4,8 +4,14 @@ import morethan from '../../assets/more-than.png';
 import share from '../../assets/share.svg';
 import DropDowns from '../dropDowns/dropDowns';
 import LeftSidebar from '../leftSidebar/leftSidebar';
+import refer from '../../assets/add.png';
+import settings from '../../assets/settings.svg';
+import kanban from '../../assets/kanban.png';
+import dropdown from '../../assets/drop-down.png';
 
-import {Lessthan, Morethan, Topic, MiddleWrapper, ShareButton, Left, FilterSection, SearchBar, Full} from './middle.styles';
+
+import {Lessthan, Morethan, Topic, MiddleWrapper, ShareButton, 
+    Left, FilterSection, SearchBar, Full, LayoutButton} from './middle.styles';
 
 
 const middle = () => {
@@ -25,10 +31,18 @@ const middle = () => {
 
             <hr/>
             <FilterSection>
+                <div style={{display: "flex", gap: '5px'}}>
                 <SearchBar placeholder='Search'> </SearchBar>
-                <DropDowns />                              
+                <DropDowns />   
+                </div>
+                <div style={{display: "flex", alignItems:'center', gap: "10px"}}>                   
+                    <img src={refer} alt='refer' width={20}/>
+                    <p style={{fontSize:'13px'}}> Refer People </p>
+                    <label style={{backgroundColor: 'white', padding:'3px', borderRadius:'6px'}}> <img src={settings} alt='settings' width={18} /> </label>
+                    <LayoutButton> <img src={kanban} width={18} /> Kanban <img src={dropdown} width={20}/> </LayoutButton>
+                </div>                           
             </FilterSection>
-            <Board />
+            <Board/>
         </MiddleWrapper>
         </Full>
     );
