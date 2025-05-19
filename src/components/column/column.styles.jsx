@@ -25,7 +25,7 @@ export const Title = styled.label`
 `;
 
 export const CandidateList = styled.div`
-    max-height: 500px;
+    max-height: 400px;
     overflow-y: auto;
 
     &::-webkit-scrollbar {
