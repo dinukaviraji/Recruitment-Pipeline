@@ -160,7 +160,7 @@ export const LayoutButton = styled.div`
     display: flex;
     align-items: center;
     gap: 5px;
-    width: 110px;
+    width: 100px;
     height: 30px;
     padding: 0 5px;
     font-size: 14px;

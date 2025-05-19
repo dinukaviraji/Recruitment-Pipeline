@@ -8,7 +8,7 @@ import refer from '../../assets/add.png';
 import settings from '../../assets/settings.svg';
 import kanban from '../../assets/kanban.png';
 import dropdown from '../../assets/drop-down.png';
-
+import Rightsidebar from '../rightSidebar/rightSidebar';
 
 import {Lessthan, Morethan, Topic, MiddleWrapper, ShareButton, 
     Left, FilterSection, SearchBar, Full, LayoutButton} from './middle.styles';
@@ -44,6 +44,7 @@ const middle = () => {
             </FilterSection>
             <Board/>
         </MiddleWrapper>
+        <Rightsidebar />
         </Full>
     );
 };
