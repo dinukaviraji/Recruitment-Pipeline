@@ -14,7 +14,6 @@ const middle = () => {
         <Full>
         <LeftSidebar />
         <MiddleWrapper>
-            <div>
             <Topic>     
                 <Left>
                 <h2> Research and Development Officer </h2>
@@ -30,7 +29,6 @@ const middle = () => {
                 <DropDowns />                              
             </FilterSection>
             <Board />
-            </div>
         </MiddleWrapper>
         </Full>
     );

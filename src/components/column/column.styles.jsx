@@ -5,7 +5,8 @@ export const ColumnWrapper = styled.div`
     background-color: #DCDCDC;
     border-radius: 8px;
     padding: 10px;
-    flex: 0 0 260px;
+    flex: 0 0 250px;
+
 `;
 
 const bg = {

@@ -14,7 +14,8 @@ const Card = ({candidate }) => {
     return (
         <CardWrapper ref={setNodeRef} {...listeners} {...attributes}>
             <p> {candidate.name}</p>
-            <p> Applied at {candidate.appliedDate}</p>
+            <div style={{display: "flex", gap: "5px"}}>
+            <p style={{color: "gray"}}> Applied at </p> <p> {candidate.appliedDate}</p> </div>
             <hr/>
             <Bottom>
             <Assesment> <img src={star} alt="star" width={15}/> {candidate.score} Overall </Assesment>

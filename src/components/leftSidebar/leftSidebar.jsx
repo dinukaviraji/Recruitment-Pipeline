@@ -11,14 +11,16 @@ import icon8 from "../../assets/icon8.png";
 const leftSidebar = () => {
     return (
         <LeftSidebarWrapper>
-            <img src={icon1} alt="icon1" width={25} />
-            <img src={icon2} alt="icon2" width={25} />
-            <img src={icon3} alt="icon3" width={25} />      
-            <img src={icon4} alt="icon4" width={25} />
-            <img src={icon5} alt="icon5" width={25} />
-            <img src={icon6} alt="icon6" width={25} />
-            <img src={icon7} alt="icon7" width={25} />
-            <img src={icon8} alt="icon8" width={25} />
+            <img src={icon1} alt="icon1" width={22} />
+            <img src={icon2} alt="icon2" width={22} />
+            <img src={icon3} alt="icon3" width={22} />      
+            <img src={icon4} alt="icon4" width={22} />
+            <hr style={{width: 30}}/>
+            <img src={icon5} alt="icon5" width={22} />
+            <img src={icon6} alt="icon6" width={22} />
+            <hr style={{width: 30}}/>
+            <img src={icon7} alt="icon7" width={22} />
+            <img src={icon8} alt="icon8" width={22} />
             
         </LeftSidebarWrapper>
     );
